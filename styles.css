@@ -18,7 +18,7 @@ body {
 }
 
 .image {
-    flex: 0 0 calc(100% / 4); /* Distribui as imagens em 25% da largura cada */
+    flex: 0 0 calc(100% / 4); 
     box-sizing: border-box;
 }
 
