@@ -18,7 +18,7 @@ body {
 }
 
 .image {
-    flex: 0 0 calc(100% / 4); 
+    flex: 0 0 calc(100% / 4);
     box-sizing: border-box;
 }
 
@@ -41,4 +41,25 @@ button {
 
 #nextBtn {
     right: 0;
+}
+
+.indicators-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: #717171;
 }
